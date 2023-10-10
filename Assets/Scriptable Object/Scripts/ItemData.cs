@@ -35,7 +35,7 @@ public class ItemData : ScriptableObject
     public bool canStack;
     public int maxStackAmount;
 
-    [Header("Consumable")]
+    [Header("Consumable")] // 어떤 타입에 어떤 능력치를 줄 것인가
     public ItemDataConsumable[] consumables;
 
 }
