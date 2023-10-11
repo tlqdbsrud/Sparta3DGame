@@ -227,19 +227,35 @@ public class Inventory : MonoBehaviour
         RemoveSelectedItem(); // 아이템 사용 후 제거
     }
 
+    // 장착 버튼
     public void OnEquipButton()
     {
+        if (uiSlots[curEquipIndex].equipped) // 장착하고 있다면
+        {
+            UnEquip(curEquipIndex); // 뺀다
+        }
+        uiSlots[selectedItemIndex].equipped = true;
+        curEquipIndex = selectedItemIndex; // 선택한 아이템으로
+        EquipManager.instance.EquipNew(selectedItem.item);
+        UpdateUI();
 
+        SelectItem(selectedItemIndex); // 선택된 아이템 설정
     }
 
     void UnEquip(int index)
     {
+        uiSlots[index].equipped = false;
+        EquipManager.instance.UnEquip();
+        UpdateUI();
 
+        if (selectedItemIndex == index)
+            SelectItem(index);
     }
 
+    // 장착 해제 버튼
     public void OnUnEquipButton()
     {
-
+        UnEquip(selectedItemIndex);
     }
 
     public void OnDropButton()
