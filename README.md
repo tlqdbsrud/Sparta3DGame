@@ -48,7 +48,7 @@
 1. **낮과 밤 구현**
     - Sun과 Moon
     - DayNightCycle 스크립트
-        - `**AnimationCurve`** 메서드 사용
+        - `AnimationCurve` 메서드 사용
 
 1. **아이템** 
     - 아이템 데이터 저장: `ScriptableObject`
