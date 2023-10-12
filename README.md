@@ -5,7 +5,7 @@
 
 ---
 
-**Project :**  **Sparta 3D Game
+**Project :**  **Sparta 3D Game**
 Use : Unity**
 
 <aside>
