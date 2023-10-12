@@ -51,11 +51,11 @@
         - `**AnimationCurve`** 메서드 사용
 
 1. **아이템** 
-    - 아이템 데이터 저장: `**ScriptableObject**`
+    - 아이템 데이터 저장: `ScriptableObject`
         - 자원(Resource): Wood, Rock
         - 음식(Consumable): Carrot
         - 무기(Equipable): Sword, Axe
-    - `**raycast**`로 아이템 인식
+    - `raycast`로 아이템 인식
         - Player Input Event - Item 줍기 설정(E 키)
 
 1. **Inventory UI와 아이템 사용**
@@ -68,7 +68,7 @@
     - 아이템 사용
         - 음식(Consumable) 사용하여 Health와 Hunger 채우기
         - 무기(Equipable) 장착하기
-            - `**Instantiate**`로 장착 기능 구현
+            - `Instantiate`로 장착 기능 구현
         - 아이템을 Player 앞에 버리기
 
 1. **아이템 장착 애니메이션** 
@@ -78,8 +78,8 @@
 
 1. **자원 채취**
     - 도끼(Axe)에 접촉할 때마다 자원 생성
-        - `**raycast`**  활용
-        - `**Instantiate**`로 자원 생성
+        - `raycast`  활용
+        - `Instantiate`로 자원 생성
         - 도끼 Attack때마다 Stamian 감소하다 회복
 
 
