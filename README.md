@@ -17,9 +17,6 @@
 
 ---
 
-<aside>
-<img src="/icons/star_yellow.svg" alt="/icons/star_yellow.svg" width="40px" /> **3D게임 기능**
-
 1. **인트로 씬 구성**
     - 시작 버튼 추가
 
@@ -85,9 +82,6 @@
 
 1. **적 생성과 로직**
 </aside>
-
-<aside>
-<img src="/icons/star-outline_yellow.svg" alt="/icons/star-outline_yellow.svg" width="40px" /> **추가할 기능(미완료)**
 
 1. **자원 활용**
     - 집 짓기
