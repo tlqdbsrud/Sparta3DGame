@@ -1,5 +1,4 @@
-# Sparta3DGame
-스파르타 3D 게임
+![slice](https://capsule-render.vercel.app/api?type=slice&color=auto&height=250&text=Sparta3DGame⛏&fontAlign=67&rotate=15&fontAlignY=35&desc=&descAlign=70.&descAlignY=44)
 
 ## 🟡 프로젝트 소개
 
@@ -22,35 +21,35 @@
 1. **인트로 씬 구성**
     - 시작 버튼 추가
 
-1. **캐릭터 1인칭 시점**
+2. **캐릭터 1인칭 시점**
     - 카메라 제어(Player 오브젝트의 하위 객체에 main 카메라 설치)
 
-1. **Environment 꾸미기**
+3. **Environment 꾸미기**
     - ground: 에셋 스토어에서 ‘통나무 집 마을’ 다운로드
         
         [rpg-poly-pack-lite-148410](https://assetstore.unity.com/packages/3d/environments/landscapes/rpg-poly-pack-lite-148410)
         
     - Sky: Skybox Material 설정(하늘 색 변경)
 
-1. **키보드와 마우스 제어**
+4. **키보드와 마우스 제어**
     - **Input Action** 활용
     - 키보드: WASD로 Player 이동, space bar로 점프, Tab로 Inventory 띄우기, E로 아이템 줍기
     - 마우스: Look, 좌 클릭으로 공격
 
-1. **Player 상태 UI**
+5. **Player 상태 UI**
     - 상태: Health, Hunger, Stamina
     - UI는 Condition Bar 이미지 활용
     - PlayerConditions 스크립트에 interface와 상속 활용
 
-1. **접촉 오브젝트로 인한 데미지 처리**
+6. **접촉 오브젝트로 인한 데미지 처리**
     - 불에 닿으면 Health 감소하며, 화면 경고(빨간색) 깜박임
 
-1. **낮과 밤 구현**
+7. **낮과 밤 구현**
     - Sun과 Moon
     - DayNightCycle 스크립트
         - `AnimationCurve` 메서드 사용
 
-1. **아이템** 
+8. **아이템** 
     - 아이템 데이터 저장: `ScriptableObject`
         - 자원(Resource): Wood, Rock
         - 음식(Consumable): Carrot
@@ -58,7 +57,7 @@
     - `raycast`로 아이템 인식
         - Player Input Event - Item 줍기 설정(E 키)
 
-1. **Inventory UI와 아이템 사용**
+9. **Inventory UI와 아이템 사용**
     - 인벤토리 UI
         - 아이템 이름과 아이템 정보
         - 아이템 개수
@@ -71,22 +70,25 @@
             - `Instantiate`로 장착 기능 구현
         - 아이템을 Player 앞에 버리기
 
-1. **아이템 장착 애니메이션** 
+10. **아이템 장착 애니메이션** 
     - 장착한 무기 애니메이션 실행
         - Attack과 Idle 애니메이션 제작
         - Player Input Event - Attack 설정(좌 클릭)
 
-1. **자원 채취**
+11. **자원 채취**
     - 도끼(Axe)에 접촉할 때마다 자원 생성
         - `raycast`  활용
         - `Instantiate`로 자원 생성
         - 도끼 Attack때마다 Stamian 감소하다 회복
 
+12. **적 생성과 로직**  
 
-### 🟡 추가할 기능(미완료)
+
+      
+### 🟡 추가할 기능(미완료)  
 
 
-1. **적 생성과 로직**
+
 </aside>
 
 1. **자원 활용**
