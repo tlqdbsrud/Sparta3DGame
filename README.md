@@ -1,4 +1,5 @@
 ![slice](https://capsule-render.vercel.app/api?type=slice&color=auto&height=250&text=Sparta3DGame⛏&fontAlign=67&rotate=15&fontAlignY=35&desc=&descAlign=70.&descAlignY=44)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=tlqdbsrud&count_private=true&show_icons=true&theme=solarized-light)
 
 ## 🟡 프로젝트 소개
 
